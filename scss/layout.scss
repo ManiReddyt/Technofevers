@@ -1,0 +1,150 @@
+.container{
+    display:grid;
+    width: 100%;
+   background-color: white;
+//    margin:10rem auto;
+   grid-template-columns: 100%;
+   grid-template-rows: repeat(10 autofit);
+    // grid-gap: 3rem;
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.about{
+    display: grid;
+    // margin:-10rem auto;
+    grid-template-columns: 30% 30% 30%;
+    // grid-template-rows: repeat(3 30%);
+    justify-content: center;
+    // background-color: olivedrab;
+    // transform: translateY(-10rem);
+    @media only screen and (max-width:768px){
+        grid-template-columns: 1fr;
+    }
+}
+
+.achivements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F64C72;
+    padding-top:7rem;
+    padding-bottom:5rem;
+    margin-top:-6rem;
+    z-index: 1;
+}
+
+.whatwedo{
+    display: grid;
+    width:80%;
+    grid-gap:2rem;
+    grid-template-columns: repeat(3,33.33%);
+    // grid-template-rows: repeat(3 autofit);
+    margin:10rem auto;
+    
+    @media only screen and (max-width:1024px){
+        grid-template-columns: repeat(2,1fr);   
+    }
+    @media only screen and (max-width:768px){
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+.mission{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    @media only screen and (max-width:1200px){
+     grid-template-columns: 1fr;   
+    }
+
+}
+
+.team{
+    display: grid;
+    width:95%;
+    margin:10rem auto;
+    margin-bottom:3rem;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    @media only screen and (max-width:1024px){
+        grid-template-columns: repeat(2,1fr);   
+    }
+    @media only screen and (max-width:768px){
+        grid-template-columns: 1fr;
+    }
+}
+
+.next{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right:14rem;
+    margin-bottom:3rem;
+    @media only screen and (max-width:1024px){
+        margin-right:8rem;
+    }
+    @media only screen and (max-width:600px){
+        margin-right:5rem;
+    }
+}
+
+
+.arrows{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right:14rem;
+    margin-bottom:10rem;
+    .firstarr{
+        margin-right:1.5rem;
+
+    }
+    @media only screen and (max-width:1024px){
+        margin-right:8rem;
+    }
+    @media only screen and (max-width:600px){
+        margin-right:5rem;
+    }
+
+}
+
+
+.peoplesay{
+    display: grid;
+    width:95%;
+    margin:4rem auto;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    @media only screen and (max-width:1024px){
+        grid-template-columns: repeat(2,1fr);   
+    }
+    @media only screen and (max-width:768px){
+        grid-template-columns: 1fr;
+    }
+    
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#F64C72;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.foot{
+    display: flex;
+    align-items: center;
+//    flex-wrap: nowrap;
+      
+
+}
