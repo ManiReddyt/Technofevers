@@ -449,6 +449,9 @@ body {
     @media only screen and (max-width: 425px) {
       .foot .image {
         width: 2em; } }
+  @media only screen and (max-width: 425px) {
+    .foot .image-facebook {
+      width: 1rem; } }
 
 .container {
   display: grid;
